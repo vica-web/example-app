@@ -27,15 +27,9 @@
     text-decoration: none;
     color: var(--text-color);
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
-/* .nav-links:hover {
-  background-color: var(--primary-color);
-  color: #fff;
-  border-radius: 4px;
-  transition: all 0.2s ease-in-out;
-} */
 .nav-links.active,
 .nav-links:hover {
     color: var(--primary-color);

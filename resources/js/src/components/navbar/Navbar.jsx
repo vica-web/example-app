@@ -15,7 +15,9 @@ const Navbar = () => {
     return (
         <nav className="NavbarItems container">
             <div className="navbar-logo">
-                <img src="/logo.svg" alt="Vica Logo" />
+                <Link to="/">
+                    <img src="/logo.svg" alt="Vica Logo" />
+                </Link>
             </div>
             <div className="menu-icons">
                 <i
