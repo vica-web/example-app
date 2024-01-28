@@ -2,7 +2,7 @@ import Hero from "../../components/hero/Hero";
 import GetInTouch from "../../components/getInTouch/GetInTouch";
 import Footer from "../../components/footer/Footer";
 
-const Home = () => {
+const Contact = () => {
     return (
         <>
             <Hero />
@@ -12,4 +12,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Contact;

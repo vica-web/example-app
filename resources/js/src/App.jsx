@@ -3,17 +3,20 @@ import ReactDom from "react-dom/client";
 import "../../css/app.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../src/pages/Home/Home";
+import About from "./pages/About/About";
+import Services from "./pages/Services/Services";
+import Contact from "./pages/Contact/Contact";
 
 const App = () => {
     return (
         <div className="App">
             <Routes>
                 <Route path="/" element={<Home />} />
-                {/* <Route path="/about" element={<About />} />
-        <Route path="/service" element={<Service />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/signup" element={<Sign />} />
-        <Route path="/login" element={<Log />} /> */}
+                <Route path="/about" element={<About />} />
+                <Route path="/services" element={<Services />} />
+                <Route path="/contact" element={<Contact />} />
+                {/* <Route path="/signup" element={<Sign />} />
+                <Route path="/login" element={<Log />} /> */}
             </Routes>
         </div>
     );

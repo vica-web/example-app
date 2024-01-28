@@ -33,10 +33,10 @@ const Navbar = () => {
             >
                 {MenuItems.map((item, index) => {
                     return (
-                        <li key={index}>
+                        <li key={index} className="nav-item">
                             <Link
                                 to={item.url}
-                                className={`${item.cName} ${
+                                className={`nav-links ${
                                     location.pathname == item.url
                                         ? "active"
                                         : ""
