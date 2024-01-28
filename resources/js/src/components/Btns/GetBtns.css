@@ -1,0 +1,17 @@
+.get-btn {
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 16px 40px;
+  border-radius: 8px;
+  margin-top: 40px;
+  color: #fff;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .get-btn {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 12px 32px;
+  }
+}

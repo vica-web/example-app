@@ -1,3 +1,3 @@
 import "./bootstrap";
 
-import "./src/main.jsx";
+import "./src/App.jsx";
