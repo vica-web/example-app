@@ -1,0 +1,57 @@
+.about-section {
+    padding-top: 125px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-bottom: 170px;
+}
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+.about-desc {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.about-desc .about-desc-top p {
+    font-size: 20px;
+    text-align: justify;
+}
+.about-desc h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.about-desc-bottom {
+    display: flex;
+    gap: 80px;
+}
+.about-desc-bottom div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.about-desc-bottom p {
+    text-align: justify;
+    letter-spacing: -0.48px;
+    line-height: 1.3;
+    font-size: 16px;
+}
+.about-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.about-img .about-img-vica {
+    width: 372px;
+    height: 359px;
+    z-index: 3;
+}
+.about-img .about-img-design {
+    position: absolute;
+    bottom: -39px;
+    left: 27px;
+}

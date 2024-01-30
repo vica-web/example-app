@@ -1,0 +1,22 @@
+.hero-banner {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid var(--primary-color);
+}
+.hero-banner .left {
+    max-width: 35vw;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 44px;
+    border-radius: 0 0 10px 0;
+}
+.hero-banner .right {
+    max-width: 65vw;
+}
+.hero-banner .banner-slider {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
