@@ -21,12 +21,17 @@ const HeroBanner = () => {
             </div>
             <div className="right">
                 <Swiper
-                    spaceBetween={10}
+                    className="sample-slider"
+                    spaceBetween={0}
                     centeredSlides={true}
-                    autoplay={{
-                        delay: 10000,
-                        disableOnInteraction: false,
-                    }}
+                    loop={true}
+                    autoplay={{ delay: 0 }}
+                    slidesPerView={2} // added
+                    speed={7000}
+                    // autoplay={{
+                    //     delay: 2500,
+                    //     disableOnInteraction: false,
+                    // }}
                     // pagination={{
                     //     clickable: true,
                     // }}
@@ -36,18 +41,32 @@ const HeroBanner = () => {
                     <SwiperSlide className="banner-slider">
                         <img src="/figma.png" alt="" />
                         <img src="/figma.png" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide className="banner-slider">
                         <img src="/figma.png" alt="" />
                         <img src="/figma.png" alt="" />
                     </SwiperSlide>
                     <SwiperSlide className="banner-slider">
                         <img src="/figma.png" alt="" />
                         <img src="/figma.png" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide className="banner-slider">
                         <img src="/figma.png" alt="" />
                         <img src="/figma.png" alt="" />
                     </SwiperSlide>
                     <SwiperSlide className="banner-slider">
                         <img src="/figma.png" alt="" />
                         <img src="/figma.png" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide className="banner-slider">
+                        <img src="/figma.png" alt="" />
+                        <img src="/figma.png" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide className="banner-slider">
+                        <img src="/figma.png" alt="" />
+                        <img src="/figma.png" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide className="banner-slider">
                         <img src="/figma.png" alt="" />
                         <img src="/figma.png" alt="" />
                     </SwiperSlide>

@@ -53,6 +53,32 @@ const HeroSlider = () => {
                         <img src="/frame2.png" alt="" className="hero-frame2" />
                     </div>
                 </SwiperSlide>
+                <SwiperSlide className="hero-slider">
+                    <div className="hero-slider-content">
+                        <h1>
+                            We Create
+                            <span> Solutions</span>
+                            <br />
+                            for your web
+                            <span> Business</span>
+                        </h1>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Dolorem, praesentium.
+                        </p>
+                    </div>
+                    <div className="hero-slider-right">
+                        <div className="hero-temp">
+                            <img
+                                src="/temp.png"
+                                alt=""
+                                className="hero-person"
+                            />
+                        </div>
+                        <img src="/Frame.svg" alt="" className="hero-frame" />
+                        <img src="/frame2.png" alt="" className="hero-frame2" />
+                    </div>
+                </SwiperSlide>
 
                 {/* <SwiperSlide
                     style={{

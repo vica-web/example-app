@@ -14,9 +14,13 @@
 }
 .hero-banner .right {
     max-width: 65vw;
+    overflow: hidden;
 }
 .hero-banner .banner-slider {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+}
+.sample-slider .swiper-wrapper {
+    transition-timing-function: linear;
 }
