@@ -2,6 +2,7 @@ import Hero from "../../components/hero/Hero";
 import GetInTouch from "../../components/getInTouch/GetInTouch";
 import Footer from "../../components/footer/Footer";
 import { Helmet } from "react-helmet";
+import ServicesSection from "../../components/Home page/Services-Section/ServicesSection";
 
 const Services = () => {
     return (
@@ -11,7 +12,7 @@ const Services = () => {
                 <meta name="description" content="Vica Services Page " />
             </Helmet>
             <Hero />
-            <Services />
+            <ServicesSection />
             <GetInTouch />
             <Footer />
         </>
