@@ -26,7 +26,6 @@ const Contact = () => {
             </div>
             <HeroBanner />
             <ContactSection />
-            <GetInTouch />
             <Footer />
         </>
     );

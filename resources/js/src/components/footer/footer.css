@@ -1,10 +1,10 @@
 footer {
-    width: 100%;
-    min-height: 145px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    min-height: 145px;
     background: linear-gradient(90deg, rgba(4, 92, 125, 0.8) 0%, #045c7d 100%);
 }
 .footer-content {
