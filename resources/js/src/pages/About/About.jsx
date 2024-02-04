@@ -11,6 +11,7 @@ const About = () => {
                 <meta name="description" content="Vica About Page " />
             </Helmet>
             <Hero />
+            <About />
             <GetInTouch />
             <Footer />
         </>

@@ -11,6 +11,7 @@ const Services = () => {
                 <meta name="description" content="Vica Services Page " />
             </Helmet>
             <Hero />
+            <Services />
             <GetInTouch />
             <Footer />
         </>
