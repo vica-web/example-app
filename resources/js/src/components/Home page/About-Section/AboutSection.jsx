@@ -41,17 +41,14 @@ const AboutSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="about-img">
-                    <img
-                        src="/about-logo.png"
-                        alt="Vica Logo"
-                        className="about-img-vica"
-                    />
-                    <img
-                        src="/about-design.png"
-                        alt="About design"
-                        className="about-img-design"
-                    />
+                <div className="about-right">
+                    <div className="about-img">
+                        <img
+                            src="/about-logo.png"
+                            alt="Vica Logo"
+                            className="about-img-vica"
+                        />
+                    </div>
                 </div>
             </div>
         </div>

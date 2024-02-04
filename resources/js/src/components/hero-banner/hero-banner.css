@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     border-top: 2px solid var(--primary-color);
+    overflow: hidden;
 }
 .hero-banner .left {
     max-width: 35vw;
@@ -14,13 +15,46 @@
 }
 .hero-banner .right {
     max-width: 65vw;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.hero-banner .right .banner-slide-item {
+    width: 130px;
+}
+.hero-banner .right .banner-slide-item {
+    width: 100%;
 }
 .hero-banner .banner-slider {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 100px;
 }
-.sample-slider .swiper-wrapper {
+
+.banner-slider .swiper-wrapper {
     transition-timing-function: linear;
+}
+@media screen and (max-width: 992px) {
+    .hero-banner .left {
+        font-size: 16px;
+        padding: 12px 36px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .hero-banner {
+        flex-direction: column-reverse;
+    }
+    .hero-banner .left,
+    .hero-banner .right {
+        min-width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .hero-banner .left {
+        text-align: center;
+    }
+
+    .hero-banner .right .banner-slide-item img {
+        width: 70%;
+    }
 }

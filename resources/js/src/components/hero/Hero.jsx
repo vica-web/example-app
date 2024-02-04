@@ -1,6 +1,5 @@
 import HeroBanner from "../hero-banner/HeroBanner";
 import Navbar from "../navbar/Navbar";
-import Temp from "../temp/Temp";
 import "./hero.css";
 import HeroSlider from "./heroSlider/HeroSlider";
 
@@ -9,8 +8,15 @@ const Hero = () => {
         <>
             <div className="hero">
                 <Navbar />
-                {/* <Temp /> */}
-                <HeroSlider />
+                <HeroSlider
+                    title1="We Create"
+                    span1="Solutions"
+                    title2="for your web"
+                    span2="Business"
+                    desc="Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Dolorem, praesentium."
+                    heroImg="/temp.png"
+                />
             </div>
             <HeroBanner />
         </>

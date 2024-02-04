@@ -4,13 +4,6 @@
     align-items: center;
     justify-content: space-between;
 }
-.hero-slider-right {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
 
 .hero-slider-content {
     width: 50%;
@@ -24,54 +17,49 @@
 .hero-slider-content span {
     color: var(--primary-color);
 }
-.hero-slider-content {
+.hero-slider-content p {
     font-size: 20px;
     font-weight: 400;
 }
-.hero-frame {
-    position: absolute;
-    right: 125px;
-    top: 175px;
-}
-.hero-frame2 {
-    position: absolute;
-    left: 75px;
-    bottom: 88px;
-    box-shadow: -3px 4px 5px 0px rgba(0, 0, 0, 0.25);
-}
-
-/* .hero-arrow {
-    width: 422px;
-    height: 422px;
+.hero-slider-right {
+    width: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    border-right: 3px solid var(--primary-color);
-    border-radius: 50%;
+    justify-content: center;
+    overflow: hidden;
 }
-.hero-slider-circle {
-    width: 354.767px;
-    height: 354.767px;
-    border-radius: 50%;
-    background-color: var(--primary-color);
+.hero-slider-right .hero-img {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
-.hero-slider-img {
-    width: 350px;
-    height: 406.053px;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    display: flex;
-    justify-content: center;
-    border-radius: 48%;
-    overflow-y: hidden;
+.hero-slider-right .hero-img .hero-person {
+    width: 100%;
 }
-.hero-slider-img img {
-    width: 256.617px;
-    height: 406.053px;
-    object-fit: contain;
-} */
+@media screen and (max-width: 1024px) {
+    .hero-slider-content h1 {
+        font-size: 2rem;
+    }
+    .hero-slider-content p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero-slider {
+        flex-direction: column;
+        margin-top: 80px;
+        height: auto;
+    }
+    .hero-slider-content,
+    .hero-slider-right {
+        width: 100%;
+    }
+    .hero-slider-content {
+        text-align: center;
+        margin: 40px 0;
+    }
+    .hero-slider-right .hero-img .hero-person {
+        width: 80%;
+    }
+}

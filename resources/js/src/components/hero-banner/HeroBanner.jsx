@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "./hero-banner.css";
+import { brandsData } from "../../data/brandsData";
 
 const HeroBanner = () => {
     return (
@@ -21,12 +22,11 @@ const HeroBanner = () => {
             </div>
             <div className="right">
                 <Swiper
-                    className="sample-slider"
-                    spaceBetween={0}
-                    centeredSlides={true}
+                    className="banner-slider"
+                    // centeredSlides={true}
                     loop={true}
                     autoplay={{ delay: 0 }}
-                    slidesPerView={2} // added
+                    slidesPerView={4} // added
                     speed={7000}
                     // autoplay={{
                     //     delay: 2500,
@@ -37,39 +37,32 @@ const HeroBanner = () => {
                     // }}
                     // navigation={true}
                     modules={[Autoplay, Pagination, Navigation]}
+                    breakpoints={{
+                        992: {
+                            slidesPerView: 4,
+                            spaceBetween: 30,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 30,
+                        },
+                    }}
                 >
-                    <SwiperSlide className="banner-slider">
-                        <img src="/figma.png" alt="" />
-                        <img src="/figma.png" alt="" />
-                    </SwiperSlide>
-                    <SwiperSlide className="banner-slider">
-                        <img src="/figma.png" alt="" />
-                        <img src="/figma.png" alt="" />
-                    </SwiperSlide>
-                    <SwiperSlide className="banner-slider">
-                        <img src="/figma.png" alt="" />
-                        <img src="/figma.png" alt="" />
-                    </SwiperSlide>
-                    <SwiperSlide className="banner-slider">
-                        <img src="/figma.png" alt="" />
-                        <img src="/figma.png" alt="" />
-                    </SwiperSlide>
-                    <SwiperSlide className="banner-slider">
-                        <img src="/figma.png" alt="" />
-                        <img src="/figma.png" alt="" />
-                    </SwiperSlide>
-                    <SwiperSlide className="banner-slider">
-                        <img src="/figma.png" alt="" />
-                        <img src="/figma.png" alt="" />
-                    </SwiperSlide>
-                    <SwiperSlide className="banner-slider">
-                        <img src="/figma.png" alt="" />
-                        <img src="/figma.png" alt="" />
-                    </SwiperSlide>
-                    <SwiperSlide className="banner-slider">
-                        <img src="/figma.png" alt="" />
-                        <img src="/figma.png" alt="" />
-                    </SwiperSlide>
+                    {brandsData.map((brand) => {
+                        return (
+                            <SwiperSlide
+                                className="banner-slide"
+                                key={brand.brandsId}
+                            >
+                                <div className="banner-slide-item">
+                                    <img
+                                        src={brand.brandsImg}
+                                        alt={brand.brandName}
+                                    />
+                                </div>
+                            </SwiperSlide>
+                        );
+                    })}
                 </Swiper>
             </div>
         </div>

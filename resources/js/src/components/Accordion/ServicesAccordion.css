@@ -1,0 +1,70 @@
+/* .ball {
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+} */
+#panel1d-header,
+#panel2d-header,
+#panel3d-header {
+    position: relative;
+    background-color: #fff;
+}
+#panel1d-header::before,
+#panel2d-header::before,
+#panel3d-header::before {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+#panel2d-header::before {
+    background-color: #4bb049;
+}
+#panel3d-header::before {
+    background-color: #481b5d;
+}
+#panel1d-header::after,
+#panel2d-header::after,
+#panel3d-header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+    width: 2px;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+#panel2d-header::after {
+    background-color: #4bb049;
+}
+#panel3d-header::after {
+    background-color: #481b5d;
+}
+
+#panel1d-content > div,
+#panel2d-content > div,
+#panel3d-content > div {
+    position: relative;
+}
+#panel1d-content > div::after,
+#panel2d-content > div::after,
+#panel3d-content > div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 4px;
+    width: 2px;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+#panel2d-content > div::after {
+    background-color: #4bb049;
+}
+#panel3d-content > div::after {
+    background-color: #481b5d;
+}
