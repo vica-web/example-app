@@ -19,8 +19,7 @@ const Contact = () => {
                 <HeroSlider
                     title1="Contact with"
                     span1="Vica"
-                    desc="Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Dolorem, praesentium."
+                    desc="Please fill out the form below and we will be in touch with you as soon as possible."
                     heroImg="/contact-hero.png"
                 />
             </div>
