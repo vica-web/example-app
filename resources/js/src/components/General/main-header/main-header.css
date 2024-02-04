@@ -9,6 +9,7 @@
     text-transform: capitalize;
     display: inline-block;
     position: relative;
+    color: var(--text-color);
 }
 .main-header h1::after {
     content: "";

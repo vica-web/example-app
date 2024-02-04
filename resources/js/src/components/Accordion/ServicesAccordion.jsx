@@ -71,11 +71,12 @@ export default function ServicesAccordion({ changeImgSrc }) {
                                 textAlign: "justify",
                             }}
                         >
-                            Take your career to the next level with our
-                            specialized training courses, we can unlock you
-                            potentials and enhance your skills to make sure that
-                            you are all set to kick-start your career with our
-                            comprehensive training program.
+                            Unlock the full potential of your online presence
+                            with our exceptional web development services. Our
+                            team of skilled developers and designers is
+                            dedicated to creating responsive, user-friendly, and
+                            innovative websites tailored to your unique brand
+                            identity. From concept to execution.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
@@ -107,11 +108,12 @@ export default function ServicesAccordion({ changeImgSrc }) {
                                 textAlign: "justify",
                             }}
                         >
-                            Take your career to the next level with our
-                            specialized training courses, we can unlock you
-                            potentials and enhance your skills to make sure that
-                            you are all set to kick-start your career with our
-                            comprehensive training program.
+                            Invest in the growth and proficiency of your team
+                            with our comprehensive online training programs. We
+                            go beyond traditional web development services by
+                            offering specialized courses in the latest
+                            technologies, coding languages, and industry best
+                            practices.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
@@ -143,11 +145,13 @@ export default function ServicesAccordion({ changeImgSrc }) {
                                 textAlign: "justify",
                             }}
                         >
-                            Take your career to the next level with our
-                            specialized training courses, we can unlock you
-                            potentials and enhance your skills to make sure that
-                            you are all set to kick-start your career with our
-                            comprehensive training program.
+                            Amplify your brand's voice and visibility with our
+                            strategic Public Relations services. We understand
+                            the power of effective communication in the digital
+                            age. From media relations to social media campaigns,
+                            we work collaboratively to build and maintain a
+                            positive public image, ensuring your brand story
+                            reaches the right audience.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>

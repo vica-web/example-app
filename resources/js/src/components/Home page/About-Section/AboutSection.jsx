@@ -8,27 +8,24 @@ const AboutSection = () => {
                 <div className="about-desc">
                     <div className="about-desc-top">
                         <p>
-                            High Star Logistics Company is a limited liability
-                            company established in 2023 in Riyadh. It aims to
-                            provide logistical services to companies, factories,
-                            and government departments to help them with
-                            transportation and logistical means in modern,
-                            professional ways . We provide comprehensive
-                            logistics solutions with a reduced cost and seek to
-                            build strong relationships with our customers
-                            through a work team that has experience, competence
-                            and skill in the logistics field.
+                            At Vica Web Solutions, our mission is twofold: to
+                            deliver exceptional web development services and to
+                            equip individuals with the knowledge and skills
+                            required for success in the ever-evolving digital
+                            landscape. We strive to bridge the gap between
+                            technology and education, fostering growth and
+                            innovation.
                         </p>
                     </div>
                     <div className="about-desc-bottom">
                         <div>
                             <h3>Our vision</h3>
                             <p>
-                                We occupy a high leadership position in the
-                                Kingdom and the Arabian Gulf as a company that
-                                provides full services and harnesses its
-                                energies and resources to serve its clientsand
-                                all its partners.
+                                Our vision is to be a leading force in the
+                                digital landscape, empowering businesses to
+                                thrive through innovative web solutions and
+                                individuals to excel through comprehensive web
+                                development training.
                             </p>
                         </div>
                         <div>

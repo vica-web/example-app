@@ -12,27 +12,6 @@ import "swiper/css/scrollbar";
 import "./team-section.css";
 import { coachData } from "../../../data/teamData";
 
-// slidesPerView={1}
-//         centeredSlides={false}
-//         slidesPerGroupSkip={1}
-//         grabCursor={true}
-//         keyboard={{
-//           enabled: true,
-//         }}
-//         breakpoints={{
-//           769: {
-//             slidesPerView: 2,
-//             slidesPerGroup: 2,
-//           },
-//         }}
-//         scrollbar={true}
-//         navigation={true}
-//         pagination={{
-//           clickable: true,
-//         }}
-//         modules={[Keyboard, Scrollbar, Navigation, Pagination]}
-//         className="mySwiper"
-
 const TeamSlider = () => {
     return (
         <div className="team-slider">

@@ -20,6 +20,8 @@
 .hero-slider-content p {
     font-size: 20px;
     font-weight: 400;
+    text-align: justify;
+    color: var(--text-color);
 }
 .hero-slider-right {
     width: 50%;
