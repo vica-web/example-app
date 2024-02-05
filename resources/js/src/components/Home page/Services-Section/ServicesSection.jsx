@@ -20,7 +20,7 @@ const ServicesSection = () => {
     return (
         <>
             <div className="services-section container">
-                <MainHeader title={"Services"} />
+                <MainHeader firstTitle="Serv" secondTitle="ices" />
                 <div className="services-content">
                     <div className="services-desc">
                         <ServicesAccordion changeImgSrc={changeImgSrc} />

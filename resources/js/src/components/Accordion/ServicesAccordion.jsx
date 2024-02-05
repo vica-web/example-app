@@ -53,24 +53,18 @@ export default function ServicesAccordion({ changeImgSrc }) {
                 <Accordion
                     expanded={expanded === "panel1"}
                     onChange={handleChange("panel1")}
+                    className="acc1-content"
                 >
                     <AccordionSummary
                         aria-controls="panel1d-content"
                         id="panel1d-header"
                     >
-                        <Typography
-                            style={{ fontSize: "2rem", marginBottom: "16px" }}
-                        >
+                        <Typography className="service-header">
                             Website development
                         </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                        <Typography
-                            style={{
-                                fontSize: "1.25rem",
-                                textAlign: "justify",
-                            }}
-                        >
+                        <Typography className="service-text">
                             Unlock the full potential of your online presence
                             with our exceptional web development services. Our
                             team of skilled developers and designers is
@@ -90,24 +84,18 @@ export default function ServicesAccordion({ changeImgSrc }) {
                 <Accordion
                     expanded={expanded === "panel2"}
                     onChange={handleChange("panel2")}
+                    className="acc2-content"
                 >
                     <AccordionSummary
                         aria-controls="panel2d-content"
                         id="panel2d-header"
                     >
-                        <Typography
-                            style={{ fontSize: "2rem", marginBottom: "16px" }}
-                        >
+                        <Typography className="service-header">
                             Online Training
                         </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                        <Typography
-                            style={{
-                                fontSize: "1.25rem",
-                                textAlign: "justify",
-                            }}
-                        >
+                        <Typography className="service-text">
                             Invest in the growth and proficiency of your team
                             with our comprehensive online training programs. We
                             go beyond traditional web development services by
@@ -127,24 +115,18 @@ export default function ServicesAccordion({ changeImgSrc }) {
                 <Accordion
                     expanded={expanded === "panel3"}
                     onChange={handleChange("panel3")}
+                    className="acc3-content"
                 >
                     <AccordionSummary
                         aria-controls="panel3d-content"
                         id="panel3d-header"
                     >
-                        <Typography
-                            style={{ fontSize: "2rem", marginBottom: "16px" }}
-                        >
+                        <Typography className="service-header">
                             PR services
                         </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                        <Typography
-                            style={{
-                                fontSize: "1.25rem",
-                                textAlign: "justify",
-                            }}
-                        >
+                        <Typography className="service-text">
                             Amplify your brand's voice and visibility with our
                             strategic Public Relations services. We understand
                             the power of effective communication in the digital

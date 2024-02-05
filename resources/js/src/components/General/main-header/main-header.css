@@ -6,22 +6,22 @@
 .main-header h1 {
     font-size: 3rem;
     font-weight: 600;
-    text-transform: capitalize;
     display: inline-block;
     position: relative;
-    color: var(--text-color);
+    color: var(--secondary-color);
+}
+.main-header h1 span {
+    color: var(--primary-color);
 }
 .main-header h1::after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: -8px;
     left: 50%;
     transform: translateX(-50%);
-    width: 80px;
-    height: 3px;
-    margin-top: 4px;
-    background-image: linear-gradient(#045c7d, #45bbd8);
-    /* background-color: red; */
+    width: 120px;
+    height: 5px;
+    background-image: linear-gradient(90deg, #045c7d 50%, #45bbd8 50%);
 }
 @media screen and (max-width: 992px) {
     .main-header h1 {

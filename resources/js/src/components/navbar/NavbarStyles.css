@@ -3,11 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: transparent; */
-    /* box-shadow: 1px 7px 14px 0 rgba(0, 0, 0, 0.25); */
     height: 80px;
-    position: absolute;
     z-index: 99;
+    /* box-shadow: 1px 7px 14px 0 rgba(0, 0, 0, 0.25); */
+    background-color: #fff;
+    position: sticky;
+    top: 0;
 }
 .navbar-logo {
     width: 75px;
@@ -91,17 +92,17 @@
         justify-content: center;
         background-color: #fff;
         width: 100%;
-        height: auto;
+        height: calc(100vh - 80px);
         position: absolute;
         top: 80px;
-        left: -100%;
+        left: 100%;
         opacity: 0;
         align-items: stretch;
         margin: auto;
         transition: 0.3s ease-in-out;
     }
     .navbar-menu.active {
-        padding: 40px 40px;
+        padding: 0 20px;
         left: 0;
         opacity: 1;
         z-index: -1;
@@ -150,6 +151,7 @@
     }
     .bot-mobile {
         display: block;
+        background-color: var(--secondary-color);
     }
     .menu-icons {
         display: block;

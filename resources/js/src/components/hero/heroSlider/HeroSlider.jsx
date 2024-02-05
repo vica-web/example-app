@@ -6,7 +6,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "./hero-slider.css";
 
-const HeroSlider = ({ title1, span1, title2, span2, desc, heroImg }) => {
+const HeroSlider = ({
+    title1,
+    span1,
+    title2,
+    span2,
+    desc,
+    heroImg,
+    heroStyle,
+}) => {
     return (
         <main className="container">
             <Swiper
@@ -22,7 +30,7 @@ const HeroSlider = ({ title1, span1, title2, span2, desc, heroImg }) => {
                 // navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
             >
-                <SwiperSlide className="hero-slider">
+                <SwiperSlide className={heroStyle}>
                     <div className="hero-slider-content">
                         <h1>
                             {title1}

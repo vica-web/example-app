@@ -6,9 +6,10 @@ import HeroSlider from "./heroSlider/HeroSlider";
 const Hero = () => {
     return (
         <>
-            <div className="hero">
-                <Navbar />
+            <Navbar />
+            <div>
                 <HeroSlider
+                    heroStyle="hero-slider"
                     title1="We Create"
                     span1="Solutions"
                     title2="for your web"

@@ -1,8 +1,11 @@
 import "./main-header.css";
-const MainHeader = ({ title }) => {
+const MainHeader = ({ firstTitle, secondTitle }) => {
     return (
         <div className="main-header">
-            <h1>{title}</h1>
+            <h1>
+                {firstTitle}
+                <span>{secondTitle}</span>
+            </h1>
         </div>
     );
 };

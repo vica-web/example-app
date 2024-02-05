@@ -4,7 +4,7 @@ import "./team-section.css";
 const TeamSection = () => {
     return (
         <div className="team-section container">
-            <MainHeader title="our team" />
+            <MainHeader firstTitle="Our " secondTitle="Team" />
             <TeamSlider />
         </div>
     );

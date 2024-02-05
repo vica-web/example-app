@@ -20,7 +20,7 @@
 .contact-section-left .contact-section-email {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 14px;
 }
 .contact-section-left h3 {
     font-size: 1.5rem;
@@ -33,7 +33,7 @@
 .contact-section-left .contact-section-icons {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 14px;
 }
 .contact-section-left .contact-section-icons div {
     display: flex;
@@ -139,5 +139,25 @@
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .contact-section-left .contact-section-left-desc {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contact-section-left h1 {
+        font-size: 1.75rem;
+    }
+    .contact-section-left h3 {
+        font-size: 1.25rem;
+    }
+    .contact-section-left p {
+        font-size: 14px;
+    }
+    .contact-section-right form {
+        padding: 40px 20px;
     }
 }

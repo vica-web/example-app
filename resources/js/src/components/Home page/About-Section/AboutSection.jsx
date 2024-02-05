@@ -3,7 +3,7 @@ import "./about-section.css";
 const AboutSection = () => {
     return (
         <div className="about-section container">
-            <MainHeader title={"about vica"} />
+            <MainHeader firstTitle="About " secondTitle="Vica" />
             <div className="about-content">
                 <div className="about-desc">
                     <div className="about-desc-top">

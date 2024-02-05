@@ -8,15 +8,15 @@ import { useState } from "react";
 
 const Navbar = () => {
     const [mobileMenuActive, setMobileMenuActive] = useState(false);
-    const [isNavTransparent, setIsNavTransparent] = useState(true);
+    const [isBoxShadow, setIsBoxShadow] = useState(true);
     function handelMenu() {
         setMobileMenuActive((prevState) => !prevState);
     }
     window.addEventListener("scroll", () => {
         if (window.scrollY >= 80) {
-            setIsNavTransparent(false);
+            setIsBoxShadow(false);
         } else {
-            setIsNavTransparent(true);
+            setIsBoxShadow(true);
         }
     });
     const location = useLocation();
@@ -25,13 +25,9 @@ const Navbar = () => {
         <nav
             className="NavbarItems container"
             style={
-                isNavTransparent
-                    ? { background: "transparent" }
-                    : {
-                          background: "#fff",
-                          boxShadow: "1px 7px 14px 0 rgba(0, 0, 0, 0.25)",
-                          position: "fixed",
-                      }
+                isBoxShadow
+                    ? { boxShadow: "none" }
+                    : { boxShadow: "1px 7px 14px 0 rgba(0, 0, 0, 0.25)" }
             }
         >
             <div className="navbar-logo">
