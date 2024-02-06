@@ -11,6 +11,9 @@ import Team from "./pages/Team/Team";
 import ScrollToTop from "./lib/ScrollToTop";
 
 const App = () => {
+    window.onbeforeunload = () => {
+        window.scrollTo(0, 0);
+    };
     return (
         <div className="App">
             <Routes>
