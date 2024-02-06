@@ -43,7 +43,7 @@ const TeamSlider = () => {
                         <SwiperSlide key={coach.coachId} className="team-slide">
                             <div className="team-slide-content">
                                 <div className="team-slide-img">
-                                    <div className="boxbox">
+                                    <div className="team-slide-img-container">
                                         <img
                                             src="/ourTeamCircle.png"
                                             alt=""

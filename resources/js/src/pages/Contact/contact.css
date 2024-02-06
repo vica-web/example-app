@@ -2,12 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 80px;
     height: calc(100vh - 80px);
 }
 @media screen and (max-width: 768px) {
     .contact-slider {
         flex-direction: column;
-
         height: auto;
     }
 }

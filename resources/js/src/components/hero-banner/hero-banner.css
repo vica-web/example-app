@@ -55,7 +55,17 @@
         text-align: center;
     }
 
-    .hero-banner .right .banner-slide-item img {
-        width: 70%;
+    .hero-banner .right .banner-slide-item {
+        width: 100px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .hero-banner .right .banner-slide-item {
+        width: 80px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .hero-banner .right .banner-slide-item {
+        width: 70px;
     }
 }
