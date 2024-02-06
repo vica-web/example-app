@@ -12,6 +12,14 @@
     gap: 75px;
     width: 30%;
 }
+.contact-section-left h1,
+.contact-section-left h3 {
+    color: var(--secondary-color);
+}
+.contact-section-left h1 span,
+.contact-section-left h3 span {
+    color: var(--primary-color);
+}
 .contact-section-left .contact-section-left-desc {
     display: flex;
     flex-direction: column;
@@ -24,7 +32,6 @@
 }
 .contact-section-left h3 {
     font-size: 1.5rem;
-    color: var(--text-color);
 }
 .contact-section-left p {
     font-size: 1.25rem;
@@ -82,13 +89,17 @@
     background-position: 10px 16px;
 }
 .contact-section-right input[type="email"] {
-    background-image: url("/mail.png");
+    background-image: url("/email.png");
+    background-position: 10px 17px;
+}
+.contact-section-right input[type="tel"] {
+    background-image: url("/num.png");
     background-position: 10px 19px;
 }
 .contact-section-right textarea {
     width: 100%;
     height: 100px;
-    background-image: url("/mail.png");
+    background-image: url("/message.png");
     background-position: 10px 20px;
     resize: none;
 }
@@ -107,6 +118,7 @@
     font-size: 16px;
     font-weight: 600;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 992px) {

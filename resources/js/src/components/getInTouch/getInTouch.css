@@ -1,6 +1,7 @@
 .get-in-touch {
     position: relative;
     background-image: url("/banner.png");
+    background-repeat: no-repeat;
     width: 100%;
     height: 400px;
     display: flex;

@@ -19,7 +19,9 @@ const AboutSection = () => {
                     </div>
                     <div className="about-desc-bottom">
                         <div>
-                            <h3>Our vision</h3>
+                            <h3>
+                                Our <span>vision</span>
+                            </h3>
                             <p>
                                 Our vision is to be a leading force in the
                                 digital landscape, empowering businesses to
@@ -29,11 +31,14 @@ const AboutSection = () => {
                             </p>
                         </div>
                         <div>
-                            <h3>Our message</h3>
+                            <h3>
+                                Our <span>message</span>
+                            </h3>
                             <p>
-                                Constantly striving to implement the necessary
-                                initiatives to achieve the future vision and
-                                raise the work efficiency of our partners.
+                                We seek to be the first to qualify software
+                                cadres effectively and with high productivity to
+                                raise the programming level in the programming
+                                labor market.
                             </p>
                         </div>
                     </div>

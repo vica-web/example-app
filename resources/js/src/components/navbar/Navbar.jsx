@@ -1,7 +1,7 @@
 import "./NavbarStyles.css";
-import { MenuItems } from "./MenuItems";
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
+import { links } from "../../data/navigation";
 
 // Set state
 // Make Handleclick Function
@@ -20,7 +20,7 @@ const Navbar = () => {
         }
     });
     const location = useLocation();
-    console.log(location.pathname);
+
     return (
         <nav
             className="NavbarItems container"
@@ -49,13 +49,13 @@ const Navbar = () => {
                     mobileMenuActive ? "navbar-menu active" : "navbar-menu"
                 }
             >
-                {MenuItems.map((item, index) => {
+                {links.map((item, index) => {
                     return (
                         <li key={index} className="nav-item">
                             <Link
-                                to={item.url}
+                                to={item.path}
                                 className={`nav-links ${
-                                    location.pathname == item.url
+                                    location.pathname == item.path
                                         ? "active"
                                         : ""
                                 }`}
@@ -66,17 +66,14 @@ const Navbar = () => {
                     );
                 })}
                 <button className="bot-mobile">
-                    <Link
-                        to="https://t.me/vica_trainings_bot"
-                        className="btn-sign"
-                    >
+                    <Link to="https://t.me/vica_trainings_bot">
                         <i className="fa-brands fa-telegram"></i>
                         Vica bot
                     </Link>
                 </button>
             </ul>
             <button className="bot">
-                <Link to="https://t.me/vica_trainings_bot" className="btn-sign">
+                <Link to="https://t.me/vica_trainings_bot">
                     <i className="fa-brands fa-telegram"></i>
                     Vica bot
                 </Link>

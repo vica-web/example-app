@@ -12,12 +12,12 @@ export const links = [
         path: "/services",
     },
     {
-        title: "Contact us",
-        path: "/contact",
-    },
-    {
         title: "Our team",
         path: "/team",
+    },
+    {
+        title: "Contact us",
+        path: "/contact",
     },
 ];
 
@@ -44,6 +44,6 @@ export const socialIcons = [
         title: "vica-telegram",
         imgSrc: "/telegram.svg",
         imgSrcDark: "/telegram-dark.svg",
-        href: "t.me/vica_web_Solutions",
+        href: "https://www.t.me/vica_web_Solutions",
     },
 ];

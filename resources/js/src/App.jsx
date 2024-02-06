@@ -8,6 +8,7 @@ import About from "./pages/About/About";
 import Services from "./pages/Services/Services";
 import Contact from "./pages/Contact/Contact";
 import Team from "./pages/Team/Team";
+import ScrollToTop from "./lib/ScrollToTop";
 
 const App = () => {
     return (
@@ -31,6 +32,7 @@ const app = document.getElementById("main");
 const root = ReactDom.createRoot(app);
 root.render(
     <BrowserRouter basename={"/"}>
+        <ScrollToTop />
         <App />
     </BrowserRouter>
 );

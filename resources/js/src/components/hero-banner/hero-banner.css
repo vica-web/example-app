@@ -8,9 +8,9 @@
     max-width: 35vw;
     background-color: var(--primary-color);
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
-    padding: 16px 44px;
+    padding: 17px 40px;
     border-radius: 0 0 10px 0;
 }
 .hero-banner .right {
@@ -19,16 +19,17 @@
     align-items: center;
 }
 .hero-banner .right .banner-slide-item {
-    width: 130px;
+    width: 120px;
 }
-.hero-banner .right .banner-slide-item {
+
+.hero-banner .right .banner-slide-item img {
     width: 100%;
 }
 .hero-banner .banner-slider {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 100px;
+    /* gap: 100px; */
 }
 
 .banner-slider .swiper-wrapper {

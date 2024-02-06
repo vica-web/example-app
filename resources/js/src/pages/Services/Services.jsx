@@ -4,6 +4,8 @@ import Footer from "../../components/footer/Footer";
 import { Helmet } from "react-helmet";
 import ServicesSection from "../../components/Home page/Services-Section/ServicesSection";
 
+window.scrollTo(0, 0);
+
 const Services = () => {
     return (
         <>

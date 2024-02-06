@@ -6,6 +6,8 @@ import AboutSection from "../../components/Home page/About-Section/AboutSection"
 import ServicesSection from "../../components/Home page/Services-Section/ServicesSection";
 import TeamSection from "../../components/Home page/team-section/TeamSection";
 
+window.scrollTo(0, 0);
+
 const Home = () => {
     return (
         <>

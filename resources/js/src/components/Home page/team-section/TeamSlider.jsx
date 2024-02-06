@@ -17,7 +17,6 @@ const TeamSlider = () => {
         <div className="team-slider">
             <Swiper
                 className="team-swiper"
-                spaceBetween={30}
                 autoplay={{
                     delay: 4000,
                     disableOnInteraction: false,
@@ -28,50 +27,46 @@ const TeamSlider = () => {
                 pagination={{
                     clickable: true,
                 }}
-                // navigation={true}
+                navigation={false}
                 modules={[Autoplay, Pagination, Navigation]}
                 breakpoints={{
                     1024: {
                         slidesPerView: 3,
-                        spaceBetween: 30,
                     },
                     850: {
                         slidesPerView: 2,
-                        spaceBetween: 30,
                     },
                 }}
             >
                 {coachData.map((coach) => {
                     return (
                         <SwiperSlide key={coach.coachId} className="team-slide">
-                            <div className="team-slide-img">
-                                <img
-                                    src={coach.coachImg}
-                                    alt=""
-                                    className="team-person"
-                                />
-                                <div className="progress-bar">
-                                    <progress
-                                        value="25"
-                                        min="0"
-                                        max="100"
-                                        style={{
-                                            visibility: "hidden",
-                                            width: "0",
-                                            height: "0",
-                                        }}
-                                    ></progress>
+                            <div className="team-slide-content">
+                                <div className="team-slide-img">
+                                    <div className="boxbox">
+                                        <img
+                                            src="/ourTeamCircle.png"
+                                            alt=""
+                                            className="our-team-circle"
+                                        />
+                                        <img
+                                            src={coach.coachImg}
+                                            alt=""
+                                            className="team-person"
+                                        />
+                                        <div className="box">
+                                            <img src="/beforeTeam.png" alt="" />
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="team-text">
-                                <h4>{coach.coachName}</h4>
+                                <h4>
+                                    {coach.coachFirstName}{" "}
+                                    <span>{coach.coachLastName}</span>
+                                </h4>
                                 <p>{coach.coachPosition}</p>
                             </div>
-                            {/* <div className="team-icons">
-                        <img src="/t-facebook.png" alt="Facebook Icon" />
-                        <img src="/t-instagram.png" alt="Instagram Icon" />
-                        <img src="/t-telegram.png" alt="Telegram Icon" />
-                    </div> */}
                         </SwiperSlide>
                     );
                 })}

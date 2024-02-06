@@ -32,6 +32,7 @@
     color: var(--text-color);
     font-size: 1.25rem;
     font-weight: 500;
+    transition: 0.2s;
 }
 
 .nav-links.active,
@@ -50,8 +51,10 @@
 .nav-links-mobile {
     display: none;
 }
-.NavbarItems button {
+.NavbarItems .bot,
+.NavbarItems .navbar-menu .bot-mobile {
     background-color: var(--primary-color);
+    color: #fff;
     padding: 1rem 1rem;
     white-space: nowrap;
     border-radius: 0.3rem;
@@ -61,27 +64,26 @@
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
-.NavbarItems button:hover {
+.NavbarItems .bot:hover {
     background-color: var(--secondary-color);
     color: #fff;
+}
+.NavbarItems .navbar-menu .bot-mobile {
+    background-color: var(--secondary-color);
+    display: none;
+}
+.NavbarItems .navbar-menu .bot-mobile:hover {
+    background-color: var(--primary-color);
 }
 .NavbarItems button i {
     margin-right: 10px;
     font-size: 1.3rem;
 }
-.btn-sign {
-    text-decoration: none;
-    color: #fff;
-}
-.btn-sign:hover {
-    color: #fff;
-}
+
 .menu-icons {
     display: none;
 }
-.bot-mobile {
-    display: none;
-}
+
 @media screen and (max-width: 850px) {
     .NavbarItems {
         z-index: 999;
@@ -135,7 +137,7 @@
         padding: 1.5rem;
         margin: auto;
         border-radius: 4px;
-        width: 80%;
+        width: 80vw;
         background-color: var(--primary-color);
         text-decoration: none;
         color: #fff;
@@ -146,13 +148,14 @@
     .nav-links-mobile:hover {
         color: #333;
     }
+
     .bot {
         display: none;
     }
-    .bot-mobile {
+    .NavbarItems .navbar-menu .bot-mobile {
         display: block;
-        background-color: var(--secondary-color);
     }
+
     .menu-icons {
         display: block;
         cursor: pointer;

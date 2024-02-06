@@ -7,6 +7,8 @@ import Navbar from "../../components/navbar/Navbar";
 import ContactSection from "../../components/Contact page/ContactSection";
 import "./contact.css";
 
+window.scrollTo(0, 0);
+
 const Contact = () => {
     return (
         <>
@@ -20,7 +22,7 @@ const Contact = () => {
                     heroStyle="contact-slider"
                     title1="Contact with"
                     span1="Vica"
-                    desc="Please fill out the form below and we will be in touch with you as soon as possible."
+                    desc="We will be very happy to communicate with us through our various platforms."
                     heroImg="/contact-hero.png"
                 />
             </div>

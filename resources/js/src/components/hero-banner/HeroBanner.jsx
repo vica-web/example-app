@@ -17,25 +17,17 @@ const HeroBanner = () => {
         <div className="hero-banner">
             <div className="left">
                 <p>
-                    Helped more than 11+ companies to reach there business goals
+                    We use and teach a lot of programming languages and
+                    techniques.
                 </p>
             </div>
             <div className="right">
                 <Swiper
                     className="banner-slider"
-                    // centeredSlides={true}
                     loop={true}
                     autoplay={{ delay: 0 }}
                     slidesPerView={4} // added
                     speed={7000}
-                    // autoplay={{
-                    //     delay: 2500,
-                    //     disableOnInteraction: false,
-                    // }}
-                    // pagination={{
-                    //     clickable: true,
-                    // }}
-                    // navigation={true}
                     modules={[Autoplay, Pagination, Navigation]}
                     breakpoints={{
                         992: {
