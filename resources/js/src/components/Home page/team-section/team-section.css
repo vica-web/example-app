@@ -80,6 +80,9 @@
     background-color: var(--primary-color);
 }
 @media screen and (max-width: 576px) {
+    .box {
+        transition: all 1s;
+    }
     .team-slider {
         margin-top: 30px;
     }

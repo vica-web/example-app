@@ -58,3 +58,11 @@
         font-size: 1.2rem;
     }
 }
+@media screen and (max-width: 576px) {
+    .get-in-touch .get-in-content h2 {
+        font-size: 1.75rem;
+    }
+    .get-in-touch .get-in-content p {
+        font-size: 1rem;
+    }
+}
