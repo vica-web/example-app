@@ -31,11 +31,11 @@ const HeroBanner = () => {
                     modules={[Autoplay, Pagination, Navigation]}
                     breakpoints={{
                         992: {
-                            slidesPerView: 4,
+                            slidesPerView: 8,
                             spaceBetween: 30,
                         },
                         768: {
-                            slidesPerView: 3,
+                            slidesPerView: 6,
                             spaceBetween: 30,
                         },
                     }}
