@@ -17,8 +17,8 @@ const ContactBanner = () => {
         <div className="hero-banner">
             <div className="left">
                 <p>
-                    We use and teach a lot of programming languages and
-                    techniques.
+                    You will find us on all platforms and social media
+                    applications.
                 </p>
             </div>
             <div className="right">
