@@ -13,7 +13,7 @@ const ServicesSection = () => {
         } else if (panel == "panel2") {
             setImageRender("/services-lap.png");
         } else if (panel == "panel3") {
-            setImageRender("/services-lap.png");
+            setImageRender("/pr.png");
         }
     };
 
