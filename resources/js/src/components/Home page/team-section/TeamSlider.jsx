@@ -17,6 +17,7 @@ const TeamSlider = () => {
         <div className="team-slider">
             <Swiper
                 className="team-swiper"
+                centeredSlides={true}
                 autoplay={{
                     delay: 4000,
                     disableOnInteraction: false,

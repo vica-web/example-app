@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <>
             <Helmet>
-                <title>Vica web Solutions | Home</title>
+                <title>Vica web Solutions</title>
                 <meta name="description" content="Vica Home Page " />
             </Helmet>
             <Hero />

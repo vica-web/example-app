@@ -53,7 +53,7 @@
     align-items: center;
     width: 70%;
 }
-.contact-section-right form {
+.contact-section-right .form {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -61,7 +61,7 @@
     border-radius: 7px;
     box-shadow: 1px 7px 14px 0 rgba(0, 0, 0, 0.25);
 }
-.contact-section-right form div {
+.contact-section-right .form div {
     display: flex;
     gap: 40px;
 }
@@ -147,7 +147,7 @@
     .contact-section-right textarea {
         width: 100%;
     }
-    .contact-section-right form div {
+    .contact-section-right .form div {
         flex-direction: column;
         align-items: center;
         gap: 20px;
@@ -169,7 +169,7 @@
     .contact-section-left p {
         font-size: 14px;
     }
-    .contact-section-right form {
+    .contact-section-right .form {
         padding: 40px 20px;
     }
 }

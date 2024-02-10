@@ -1,78 +1,79 @@
-.hero-slider {
+.st-hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 80px;
     height: calc(100vh - 160px);
+    overflow: hidden;
     user-select: none;
 }
 
-.hero-slider-content {
+.st-hero-content {
     width: 50%;
 }
-.hero-slider-content h1 {
+.st-hero-content h1 {
     font-size: 3rem;
     font-weight: 800;
     color: var(--secondary-color);
     margin-bottom: 24px;
 }
-.hero-slider-content span {
+.st-hero-content span {
     color: var(--primary-color);
 }
-.hero-slider-content p {
+.st-hero-content p {
     font-size: 20px;
     font-weight: 400;
     text-align: justify;
     color: var(--text-color);
 }
-.hero-slider-right {
+.st-hero-right {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
 }
-.hero-slider-right .hero-img {
+.st-hero-right .st-hero-img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.hero-slider-right .hero-img .hero-person {
+.st-hero-right .st-hero-img .st-hero-person {
     width: 100%;
 }
 @media screen and (max-width: 1024px) {
-    .hero-slider-content h1 {
+    .st-hero-content h1 {
         font-size: 1.75rem;
     }
-    .hero-slider-content p {
+    .st-hero-content p {
         font-size: 16px;
     }
 }
 @media screen and (max-width: 768px) {
-    .hero-slider {
+    .st-hero {
         flex-direction: column;
         height: auto;
     }
-    .hero-slider-content,
-    .hero-slider-right {
+    .st-hero-content,
+    .st-hero-right {
         width: 100%;
     }
-    .hero-slider-content {
+    .st-hero-content {
         text-align: center;
         margin: 30px 0;
     }
-    .hero-slider-content p {
+    .st-hero-content p {
         font-size: 14px;
     }
-    .hero-slider-right .hero-img .hero-person {
+    .st-hero-right .st-hero-img .st-hero-person {
         width: 90%;
     }
 }
 @media screen and (max-width: 576px) {
-    .hero-slider-content h1 {
+    .st-hero-content h1 {
         font-size: 1.5rem;
     }
-    .hero-slider-content p {
+    .st-hero-content p {
         font-size: 12px;
         line-height: 1.5;
         font-weight: 500;
