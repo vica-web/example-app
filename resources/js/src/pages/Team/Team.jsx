@@ -24,7 +24,7 @@ const Team = () => {
                     title2="And Train With"
                     span2="All Love"
                     desc="Our team is characterized by its diversity and great experience in development and training."
-                    heroImg="/hero2.png"
+                    heroImg="/hero2.webp"
                 />
             </div>
             <HeroBanner />

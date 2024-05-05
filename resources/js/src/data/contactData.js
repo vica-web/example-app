@@ -7,7 +7,7 @@ export const socialData = [
     {
         socialId: 2,
         socialName: "Instagram brand",
-        socialImg: "/social/instagram.png",
+        socialImg: "/social/instagram.webp",
     },
     {
         socialId: 3,
@@ -17,7 +17,7 @@ export const socialData = [
     {
         socialId: 4,
         socialName: "X brand",
-        socialImg: "/social/x.jpg",
+        socialImg: "/social/x.webp",
     },
     {
         socialId: 5,

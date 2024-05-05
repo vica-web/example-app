@@ -56,7 +56,10 @@ const TeamSlider = () => {
                                             className="team-person"
                                         />
                                         <div className="box">
-                                            <img src="/beforeTeam.png" alt="" />
+                                            <img
+                                                src="/beforeTeam.webp"
+                                                alt=""
+                                            />
                                         </div>
                                     </div>
                                 </div>

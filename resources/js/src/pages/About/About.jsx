@@ -24,7 +24,7 @@ const About = () => {
                     title2="A Software"
                     span2="Company"
                     desc="Welcome to Vica Web Solutions, a startup passionate about crafting innovative and visually stunning web solutions."
-                    heroImg="/hero.png"
+                    heroImg="/hero.webp"
                 />
             </div>
             <HeroBanner />

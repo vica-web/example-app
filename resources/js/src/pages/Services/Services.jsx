@@ -24,7 +24,7 @@ const Services = () => {
                     title2="& Open Future"
                     span2="Horizon"
                     desc="Vica Web Solutions offers professional trainings in various web specialties to qualify high-level software teams."
-                    heroImg="/hero2.png"
+                    heroImg="/hero2.webp"
                 />
             </div>
             <HeroBanner />

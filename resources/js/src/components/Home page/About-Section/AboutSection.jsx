@@ -47,7 +47,7 @@ const AboutSection = () => {
                 <div className="about-right">
                     <div className="about-img">
                         <img
-                            src="/about-logo.png"
+                            src="/about-logo.webp"
                             alt="Vica Logo"
                             className="about-img-vica"
                         />

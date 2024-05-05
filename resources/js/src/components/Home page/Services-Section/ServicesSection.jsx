@@ -5,15 +5,15 @@ import { useState } from "react";
 
 const ServicesSection = () => {
     //Image Src State
-    const [imgRender, setImageRender] = useState("/services-web.png");
+    const [imgRender, setImageRender] = useState("/services-web.webp");
 
     const changeImgSrc = (panel) => {
         if (panel == "panel1") {
-            setImageRender("/services-web.png");
+            setImageRender("/services-web.webp");
         } else if (panel == "panel2") {
-            setImageRender("/services-lap.png");
+            setImageRender("/services-lap.webp");
         } else if (panel == "panel3") {
-            setImageRender("/pr.png");
+            setImageRender("/pr.webp");
         }
     };
 

@@ -1,21 +1,5 @@
-// export const brandsData = [
-//     { brandsId: 1, brandName: "Figma brand", brandsImg: "/figma.png" },
-//     { brandsId: 2, brandName: "Github brand", brandsImg: "/github.png" },
-//     { brandsId: 3, brandName: "Gitlab brand", brandsImg: "/gitlab.png" },
-//     { brandsId: 4, brandName: "HTML brand", brandsImg: "/html logo.png" },
-//     { brandsId: 5, brandName: "CSS brand", brandsImg: "/CSS LOGO.png" },
-//     { brandsId: 6, brandName: "React brand", brandsImg: "/React logo.png" },
-//     {
-//         brandsId: 7,
-//         brandName: "Bootstrap brand",
-//         brandsImg: "/bootstrap logo.png",
-//     },
-//     { brandsId: 8, brandName: "Mysql brand", brandsImg: "/mysql logo.png" },
-
-//     ,
-// ];
 export const brandsData = [
-    { brandsId: 1, brandName: "HTML brand", brandsImg: "/icons/html.png" },
+    { brandsId: 1, brandName: "HTML brand", brandsImg: "/icons/html.webp" },
     { brandsId: 2, brandName: "CSS brand", brandsImg: "/icons/css.png" },
     { brandsId: 3, brandName: "JS brand", brandsImg: "/icons/js.png" },
     {
@@ -26,7 +10,7 @@ export const brandsData = [
     {
         brandsId: 5,
         brandName: "Tailwind brand",
-        brandsImg: "/icons/tailwind.png",
+        brandsImg: "/icons/tailwind.webp",
     },
     {
         brandsId: 6,
@@ -44,7 +28,7 @@ export const brandsData = [
     {
         brandsId: 10,
         brandName: "Laravel brand",
-        brandsImg: "/icons/laravel.png",
+        brandsImg: "/icons/laravel.webp",
     },
 
     {
@@ -55,7 +39,7 @@ export const brandsData = [
     {
         brandsId: 12,
         brandName: "vscode brand",
-        brandsImg: "/icons/vs.png",
+        brandsImg: "/icons/vs.webp",
     },
     {
         brandsId: 13,

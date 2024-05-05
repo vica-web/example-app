@@ -24,7 +24,7 @@ const Contact = () => {
                     title2="We always "
                     span2="Online"
                     desc="We will be very happy to communicate with us through our various platforms."
-                    heroImg="/contact-hero.png"
+                    heroImg="/contact-hero.webp"
                 />
             </div>
             <ContactBanner />

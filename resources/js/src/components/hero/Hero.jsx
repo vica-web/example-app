@@ -20,8 +20,8 @@ const Hero = () => {
                     span2_2="Future"
                     desc="Welcome to Vica Web Solutions, a startup passionate about crafting innovative and visually stunning web solutions."
                     desc2="Vica Web Solutions offers professional trainings in various web specialties to qualify high-level software teams."
-                    heroImg="/hero.png"
-                    heroImg2="/hero2.png"
+                    heroImg="/hero.webp"
+                    heroImg2="/hero2.webp"
                 />
             </div>
             <HeroBanner />
