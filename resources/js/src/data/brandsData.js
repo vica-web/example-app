@@ -23,7 +23,7 @@ export const brandsData = [
         brandsImg: "/icons/react.png",
     },
     { brandsId: 8, brandName: "NextJs brand", brandsImg: "/icons/next.png" },
-    { brandsId: 9, brandName: "PHP brand", brandsImg: "/icons/php.png" },
+    { brandsId: 9, brandName: "PHP brand", brandsImg: "/icons/php.webp" },
 
     {
         brandsId: 10,

@@ -41,7 +41,12 @@ const HeroSlider = ({
                     </div>
                     <div className="hero-slider-right">
                         <div className="hero-img">
-                            <img src={heroImg} alt="" className="hero-person" />
+                            <img
+                                src={heroImg}
+                                alt="Hero Img"
+                                className="hero-person"
+                                fetchpriority="high"
+                            />
                         </div>
                     </div>
                 </SwiperSlide>
@@ -60,8 +65,9 @@ const HeroSlider = ({
                         <div className="hero-img">
                             <img
                                 src={heroImg2}
-                                alt=""
+                                alt="Hero Img"
                                 className="hero-person"
+                                fetchpriority="low"
                             />
                         </div>
                     </div>
